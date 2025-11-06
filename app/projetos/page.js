@@ -16,7 +16,7 @@ export default async function Projetos(){
   return (
     <section className="space-y-6">
       <h1 className="text-2xl sm:text-3xl font-bold">Projetos Desenvolvidos</h1>
-      <p className="text-white/80">Lista ao vivo dos meus repositórios públicos no GitHub (via API).</p>
+      <p className="text-white/80">Meus repositórios públicos no GitHub (via API).</p>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {repos.map((r) => <ProjectCard repo={r} key={r.id} />)}
       </div>

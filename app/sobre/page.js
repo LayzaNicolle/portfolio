@@ -16,7 +16,7 @@ export default function Sobre(){
         <p>Outras escolhas técnicas:</p>
         <ul className="list-disc list-inside text-white/80 space-y-1">
           <li>Componentização (Navbar, Footer, Badge, ProjectCard, TimelineItem).</li>
-          <li>Design escuro com gradientes sutis, cantos arredondados e sombras suaves.</li>
+          <li>Design terroso com gradientes sutis, cantos arredondados e sombras suaves.</li>
           <li>Sem libs extras para facilitar a correção. Fácil de rodar: <code>npm i && npm run dev</code>.</li>
         </ul>
       </div>

@@ -17,7 +17,7 @@ export default function NavBar() {
       <nav className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="font-display text-lg sm:text-xl font-bold">
-            <span className="text-primary">layza</span>.dev
+            <span className="text-primary">LayzaNicolle</span>.dev
           </Link>
           <ul className="hidden sm:flex gap-2">
             {links.map(l => (
