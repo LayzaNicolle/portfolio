@@ -1,7 +1,7 @@
 import ProjectCard from "@/components/ProjectCard";
 
 async function getRepos() {
-  const res = await fetch("https://api.github.com/users/barbaraluizaoliveira/repos?sort=updated&per_page=12", {
+  const res = await fetch("https://api.github.com/users/LayzaNicolle/repos?sort=updated&per_page=12", {
     cache: "no-store",
     headers: { "Accept": "application/vnd.github+json" }
   });
