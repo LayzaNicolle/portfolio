@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Bárbara | Portfólio",
+  title: "Layza | Portfólio",
   description: "Currículo/Portfólio - Next.js + Tailwind + GitHub API",
 };
 
