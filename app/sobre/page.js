@@ -1,7 +1,7 @@
 import Badge from "@/components/Badge";
 import { stack } from "@/lib/data";
 
-export const metadata = { title: "Sobre • Bárbara" };
+export const metadata = { title: "Sobre • Layza" };
 
 export default function Sobre(){
   return (
