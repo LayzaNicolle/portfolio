@@ -3,24 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --bg: #FFF6FB;
-  --card: #FFEAF3;
-  --muted: #C8A6C9;
+  --bg: #FFF7FB;
+  --card: #FFE3EF;
+  --muted: #85697D;
 }
 
 html, body {
-  @apply bg-[var(--bg)] text-[#4A3A4F] font-body;
+  @apply bg-[var(--bg)] text-[#3A2D3E] font-body;
 }
 
 .gradient {
-  background-image: radial-gradient(1200px 600px at 10% -10%, rgba(242,167,196,.35), transparent 40%),
-                    radial-gradient(1200px 600px at 100% 10%, rgba(198,173,226,.25), transparent 40%);
+  background-image: radial-gradient(1200px 600px at 10% -10%, rgba(255,182,206,.30), transparent 40%),
+                    radial-gradient(1200px 600px at 100% 10%, rgba(196,175,222,.22), transparent 40%);
 }
 
 .card {
-  @apply bg-[var(--card)] rounded-2xl shadow-soft border border-[#F2A7C4]/30;
+  @apply bg-[var(--card)] rounded-2xl shadow-soft border border-[#E8A6C8]/35;
 }
 
 .badge {
-  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-[#F2A7C4]/20 border border-[#F2A7C4]/30;
+  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-[#E8A6C8]/25 border border-[#E8A6C8]/40;
 }
