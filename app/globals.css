@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0D0E12;
-  --card: #1A1C23;
-  --muted: #C7C4D9;
-  --accent: #E9A8BC;
-  --accent-soft: #F5C9DA;
+  --bg: #0E0A13;
+  --card: #1A1424;
+  --muted: #E6D8EB;
+  --accent: #F2A7C4;
+  --accent-soft: #F8C8DA;
 }
 
 html, body {
@@ -16,8 +16,8 @@ html, body {
 
 .gradient {
   background-image:
-    radial-gradient(1200px 600px at 10% -10%, rgba(233,168,188,.20), transparent 40%),
-    radial-gradient(1200px 600px at 100% 10%, rgba(199,196,217,.20), transparent 40%);
+    radial-gradient(1200px 600px at 10% -10%, rgba(242,167,196,.25), transparent 40%),
+    radial-gradient(1200px 600px at 100% 10%, rgba(230,216,235,.25), transparent 40%);
 }
 
 .card {
@@ -27,6 +27,6 @@ html, body {
 .badge {
   @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
   color: var(--accent-soft);
-  background-color: rgba(233,168,188,0.1);
-  border: 1px solid rgba(233,168,188,0.25);
+  background-color: rgba(242,167,196,0.15);
+  border: 1px solid rgba(242,167,196,0.3);
 }
