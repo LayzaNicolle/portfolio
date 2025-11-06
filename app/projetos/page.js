@@ -9,7 +9,7 @@ async function getRepos() {
   return res.json();
 }
 
-export const metadata = { title: "Projetos • Layza" };
+export const metadata = { title: "Projetos" };
 
 export default async function Projetos(){
   const repos = await getRepos();

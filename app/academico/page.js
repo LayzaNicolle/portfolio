@@ -1,7 +1,7 @@
 import TimelineItem from "@/components/TimelineItem";
 import { academic } from "@/lib/data";
 
-export const metadata = { title: "Experiência Acadêmica • Layza" };
+export const metadata = { title: "Experiência Acadêmica" };
 
 export default function Academico(){
   return (

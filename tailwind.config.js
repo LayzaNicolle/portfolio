@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./app/**/*.{js,jsx}",
@@ -11,9 +10,9 @@ module.exports = {
         body: ["Inter", "system-ui", "sans-serif"]
       },
       colors: {
-        primary: "#6C5CE7",
-        accent: "#00D1B2",
-        ink: "#1f2937"
+        primary: "#C77953",
+        accent: "#E8C3B0",
+        ink: "#F6E8DF"
       },
       boxShadow: {
         soft: "0 10px 30px rgba(0,0,0,0.06)"
